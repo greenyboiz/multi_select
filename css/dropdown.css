@@ -1,0 +1,77 @@
+.select-content {
+    position: relative;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    width: 25rem;
+    padding: 0 0.25rem;
+    cursor: pointer;
+    /* min-height: 2rem; */
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    box-shadow: 0 0.5rem 1rem 0 var(--border-color);
+}
+
+.dropdown .dropdown__item {
+    padding: 1rem;
+    min-width: 20rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown .dropdown__item:hover {
+    background-color: rgb(177, 204, 255);
+}
+
+.dropdown__item span {
+    pointer-events: none;
+}
+
+.select__item {
+    border: 1px solid var(--border-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+}
+
+.select__item span:last-child {
+    font-weight: lighter;
+}
+
+.select__item span:last-child :hover {
+    background-color: rgb(199, 199, 199);
+    transition: 200ms;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+#selectList {
+    border: 1px solid #919191;
+}
+
+#selectList:hover {
+    outline: none;
+    border-color: #1c63bb;
+    transition: 200ms;
+}
+
+#selectListContent {
+    display: inline-block;
+}
+
+#searchInput {
+    display: inline-block;
+}

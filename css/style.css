@@ -1,0 +1,23 @@
+:root {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    --text-primary: #fff;
+    --text-secondary: #000;
+    --bg-primary: #000;
+    --bg-secondary: #fff;
+    --border-color: rgb(190, 190, 190);
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
